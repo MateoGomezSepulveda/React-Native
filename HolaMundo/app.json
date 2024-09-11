@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Trabajo-1",
-    "slug": "Trabajo-1",
+    "name": "HolaMundo",
+    "slug": "HolaMundo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
