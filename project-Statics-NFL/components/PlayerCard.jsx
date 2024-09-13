@@ -34,6 +34,7 @@ export function AnimatedPlayerCard({ player, index}){
 
 const styles = StyleSheet.create({
     card: {
+    backgroundColor: "#ffffff",
       marginBottom: 20,
       padding: 30,
       borderRadius: 8,

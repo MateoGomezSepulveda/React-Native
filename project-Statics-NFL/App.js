@@ -7,7 +7,9 @@ export default function App() {
     <SafeAreaProvider>
     <View style={styles.container}>
       <StatusBar style="light" />
-    <Main/>
+      <View style={{marginBottom:0}}>
+      </View>
+      <Main/>
     </View>
     </SafeAreaProvider>
   );

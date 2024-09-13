@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "project-Statics-NFL",
-    "slug": "project-Statics-NFL",
+    "name": "Rutas-React",
+    "slug": "Rutas-React",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "nflstatics",
+    "scheme": "myapp",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",

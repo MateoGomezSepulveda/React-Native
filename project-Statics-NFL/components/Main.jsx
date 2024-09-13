@@ -3,6 +3,7 @@ import { View , ActivityIndicator, FlatList} from "react-native";
 import { GetPlayers } from "../lib/Statics-NFL"; 
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { AnimatedPlayerCard } from "./PlayerCard";
+import {Logo} from './Logo'
 
 export  function Main() {
   const [players, setPlayers] = useState([]);
@@ -15,12 +16,13 @@ export  function Main() {
   }, []);
 
   return (
-    <View style={{paddingTop: insets.top, paddingBottom: insets.bottom, paddingLeft: insets.left, paddingRight: insets.right}}>
+    <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}}>
+      <Logo />
     {players.length === 0 ? (
         <ActivityIndicator color={"#fff"} size={"large"}/>
     ) : (
         <FlatList
-        data={players}
+        data={players.slice(0,10)}
         keyExtractor={(player) => player.slug}
         renderItem ={({ item }) => <AnimatedPlayerCard player={item} />}
         />
