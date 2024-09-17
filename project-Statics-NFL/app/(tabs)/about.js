@@ -1,16 +1,13 @@
 import { ScrollView } from "react-native";
 import { Text } from "react-native";
+import { Link } from 'expo-router';
+
 
 export default function About(){
     return(
-    <Screen>
-      <ScrollView>
+        <ScrollView>
         <Link asChild href="/">
-          <StyledPressable>
-            <HomeIcon />
-          </StyledPressable>
         </Link>
-
         <Text >
           Sobre el proyecto
         </Text>
@@ -29,6 +26,5 @@ export default function About(){
           aliquip ex ea
         </Text>
       </ScrollView>
-    </Screen>
     )
 }

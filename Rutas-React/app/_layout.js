@@ -12,7 +12,7 @@ export default function Layout(){
 
 const styles = StyleSheet.create({
     container: {
-      backgroundColor: "#fff", 
+      backgroundColor: "#000", 
       flex: 1,
     }
   });

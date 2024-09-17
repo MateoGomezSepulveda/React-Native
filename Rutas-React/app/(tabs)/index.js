@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Main from '../../components/Main';
 
 
@@ -7,15 +7,13 @@ export default function Index(){
             <View style={styles.container}>
               <Main/>
             </View>
-          );
+  );
         }
         
         const styles = StyleSheet.create({
             container: {
-            backgroundColor: '#000000',
+            backgroundColor: '#fff',
             flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
             paddingHorizontal: 12,
           },
         });
